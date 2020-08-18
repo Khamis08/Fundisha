@@ -1,5 +1,5 @@
 {
-  "name": "Juhudi",
+  "name": "FFMpegBot",
   "description": "A FFMpeg Wrapper inside @Telegram",
   "keywords": [
     "telegram",
@@ -34,10 +34,14 @@
     },
     "AUTH_USERS": {
       "description": "You can create a bot using @BotFather",
-      "value": "1041455290 -1001243018219"
+      "value": "7351948 -1001220993104"
     },
     "TG_UPDATE_WORKERS_COUNT": {
-      "description": "Number of workers to use. `10000` is the recommended amount see for yourself what works best!",
+      "description": "Number of workers to use. `1` is the recommended amount see for yourself what works best!",
+      "required": false
+    },
+    "TMP_DOWNLOAD_DIRECTORY": {
+      "description": "This is required for the plugins involving the file system.",
       "required": false
     },
     "EVAL_CMD_TRIGGER": {
